@@ -6,14 +6,35 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: $font-color;
-}
+html {
+    font-size: 16px;
+  }
 
-li {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family-base;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
     list-style: none;
-}
+  }
+
+  h1 {
+    font-family: $font-family-base;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  h1, h2 {
+    text-transform: uppercase ;
+    text-align: center;
+  }
 
 
 
