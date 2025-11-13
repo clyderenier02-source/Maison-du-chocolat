@@ -1,0 +1,14 @@
+@use "../abstracts/variables" as *;
+
+.hero {
+    background-image: url("/image/main.jpg");
+    background-position: 50% 58%;
+    height: 300px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}

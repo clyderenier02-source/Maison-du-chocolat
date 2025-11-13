@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as *;
+
+@mixin button-theme($bgcolor: $framboise) {
+  background-color: $bgcolor;
+  border: none;
+  color: $white;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-size: 15px;
+}
