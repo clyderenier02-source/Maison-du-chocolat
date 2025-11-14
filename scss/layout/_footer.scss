@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $footer-color;
+    gap: 15px;
+    padding-bottom: 20px;
+    height: 150px;
+
+    a {
+        padding-top: 20px;
+        font-family: "Create Round";
+        color: $white;
+        margin: 0 auto;
+        font-size: 1.4rem;
+        font-weight: 700;
+        span {
+            color: $framboise;
+        }
+    }
+
+    p {
+        color: $font-color;
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+}
