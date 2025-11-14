@@ -52,26 +52,23 @@
             gap: 12px;
             margin: 0 auto;
         }
-
-        &_button {
-        padding: 10px 10px;
-        margin-top: 1rem;
-        align-self: flex-start;         
-        @media (min-width: $desktop-width) {
-                align-self: flex-start;
-            }
-        }
-
-        &_stuff {
+    }
+    
+    &_form_stuff {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        margin-bottom: 10px;
+        margin-top: 1rem;
+        gap: 1rem;
 
         @media (min-width: $desktop-width) {
-                width: auto;
-            }
+                flex-direction: row;
         }
+    }
+
+    &_button {
+    padding: 10px 10px;
     }
 
     label {
