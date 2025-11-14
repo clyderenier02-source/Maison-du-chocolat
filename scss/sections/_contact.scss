@@ -69,10 +69,10 @@
         margin-bottom: 10px;
 
         @media (min-width: $desktop-width) {
-            width: auto;
+                width: auto;
+            }
         }
     }
-}
 
     label {
             font-weight: bold;
